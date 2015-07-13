@@ -40,29 +40,29 @@ and update key-ring by
 
 Reference [unix.stackexchange.com](http://unix.stackexchange.com/questions/66830/are-there-any-source-apt-repositories-for-debian-lenny). There will be a [GPG error... NO_PUBKEY...](http://askubuntu.com/questions/13065/how-do-i-fix-the-gpg-error-no-pubkey) issue that can be fixed by
 
-    $ apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 8BAF9A6F`
+    $ apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 8BAF9A6F
 
 
 
 ###sudo
-`$ apt-get install sudo`
+    $ apt-get install sudo
 
 
 
 ###ssh
-`$ apt-get install openssh-server`
+    $ apt-get install openssh-server
 
 
 
 ###build-essential
-`apt-get install build-essential`
+    $ apt-get install build-essential
 
 
 
 ###libusb-dev
 Required for ikon
 
-`$ apt-get install libusb-dev`
+    $ apt-get install libusb-dev
 
 
 
@@ -70,5 +70,5 @@ Required for ikon
 ###libraw1394-dev
 Required for pixis
 
-`$ apt-get install libraw1394-dev`
+    $ apt-get install libraw1394-dev
 
