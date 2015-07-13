@@ -22,6 +22,8 @@ and bring *eth1* online by
 
     $ ifup eth1
 
+
+
 ###apt-get
 Put the following lines in `/etc/apt/sources.list`
 
@@ -40,16 +42,33 @@ Reference [unix.stackexchange.com](http://unix.stackexchange.com/questions/66830
 
     $ apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 8BAF9A6F`
 
-###ssh
-`$ apt-get install openssh-server`
 
-
-###libusb-dev
-`$ apt-get install libusb-dev`
 
 ###sudo
 `$ apt-get install sudo`
 
+
+
+###ssh
+`$ apt-get install openssh-server`
+
+
+
+###build-essential
+`apt-get install build-essential`
+
+
+
+###libusb-dev
+Required for ikon
+
+`$ apt-get install libusb-dev`
+
+
+
+
 ###libraw1394-dev
-`apt-get install libraw1394-dev`
+Required for pixis
+
+`$ apt-get install libraw1394-dev`
 
