@@ -50,3 +50,6 @@ Reference [unix.stackexchange.com](http://unix.stackexchange.com/questions/66830
 ###sudo
 `$ apt-get install sudo`
 
+###libraw1394-dev
+`apt-get install libraw1394-dev`
+
