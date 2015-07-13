@@ -14,7 +14,7 @@ and install
 
 and install
 
-	$ dpkg --install coreutils_8.5-1_i386.deb`
+	$ dpkg --install coreutils_8.5-1_i386.deb
 
 
 
