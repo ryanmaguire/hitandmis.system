@@ -42,11 +42,11 @@ and install
 
 
 ###Install dkms
-	$ wget http://ftp.us.debian.org/debian/pool/main/d/dkms/dkms_2.1.1.2-5_all.deb`
+	$ wget http://ftp.us.debian.org/debian/pool/main/d/dkms/dkms_2.1.1.2-5_all.deb
 	
 and install
 
-	$ dpkg --install dkms_2.1.1.2-5_all.deb`
+	$ dpkg --install dkms_2.1.1.2-5_all.deb
 
 
 
@@ -55,7 +55,7 @@ and install
 	
 and install
 
-	$ dpkg --install pvcam-pilk-usb-dkms_1.0.3-1ubuntu1_all.deb`
+	$ dpkg --install pvcam-pilk-usb-dkms_1.0.3-1ubuntu1_all.deb
 
 
 
@@ -65,7 +65,7 @@ and install
 	
 and set it up with
 
-	$ mv libpvcam.so.2.7.4.2.bin /usr/lib/libpvcam.so.2.7.4.2`
+	$ mv libpvcam.so.2.7.4.2.bin /usr/lib/libpvcam.so.2.7.4.2
 	
 	
 	
@@ -75,8 +75,8 @@ and set it up with
 and install
 
 	$ tar zxvf pi_pvcam_sdk_installer-2.7.1.7.tar.gz
-	$ cd pvcam2.7.1.7`
-	$ ./install_sdk.sh`
+	$ cd pvcam2.7.1.7
+	$ ./install_sdk.sh
 
 
 ##Andor iKon
