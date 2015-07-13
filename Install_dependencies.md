@@ -87,8 +87,8 @@ and install
 and install
 
 	$ tar zxvf andor-2.98.30010.0.tar.gz
-	$ cd ~/andor
-	$ sudo ./install_andor
+	$ cd andor
+	$ sudo install_andor
 
 
 
