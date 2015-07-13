@@ -10,7 +10,7 @@ and install
 
 
 ###Install coreutils
-	$ wget --no-check-certificate https://github.com/kuravih/hitandmis.system/blob/master/dependencies/coreutils_8.5-1_i386.deb
+	$ wget --no-check-certificate https://github.com/kuravih/hitandmis.system/raw/master/dependencies/coreutils_8.5-1_i386.deb
 
 and install
 
@@ -19,7 +19,7 @@ and install
 
 
 ###Install Kernel Headers
-	$ wget --no-check-certificate https://github.com/kuravih/hitandmis.system/blob/master/dependencies/linux-headers-2.6.34.10-vortex86-sg_1.2_i386.deb
+	$ wget --no-check-certificate https://github.com/kuravih/hitandmis.system/raw/master/dependencies/linux-headers-2.6.34.10-vortex86-sg_1.2_i386.deb
 	
 and install
 
@@ -32,7 +32,7 @@ Needs the headers to be linked as described [here](http://askubuntu.com/question
 
 
 ###Install Kernel Image
-	$ wget --no-check-certificate https://github.com/kuravih/hitandmis.system/blob/master/dependencies/linux-image-2.6.34.10-vortex86-sg_1.2_i386.deb
+	$ wget --no-check-certificate https://github.com/kuravih/hitandmis.system/raw/master/dependencies/linux-image-2.6.34.10-vortex86-sg_1.2_i386.deb
 	
 and install
 
@@ -43,7 +43,7 @@ and install
 
 
 ###Install dkms
-	$ wget --no-check-certificate https://github.com/kuravih/hitandmis.system/blob/master/dependencies/dkms_2.1.1.2-5_all.deb
+	$ wget --no-check-certificate https://github.com/kuravih/hitandmis.system/raw/master/dependencies/dkms_2.1.1.2-5_all.deb
 	
 and install
 
@@ -52,7 +52,7 @@ and install
 
 
 ###Install pixis camera driver
-	$ wget --no-check-certificate https://github.com/kuravih/hitandmis.system/blob/master/dependencies/pvcam-pilk-usb-dkms_1.0.3-1ubuntu1_all.deb
+	$ wget --no-check-certificate https://github.com/kuravih/hitandmis.system/raw/master/dependencies/pvcam-pilk-usb-dkms_1.0.3-1ubuntu1_all.deb
 	
 and install
 
@@ -62,7 +62,7 @@ and install
 
 ###Setting up libpvcam
 
-	$ wget --no-check-certificate https://github.com/kuravih/hitandmis.system/blob/master/dependencies/libpvcam.so.2.7.4.2.bin
+	$ wget --no-check-certificate https://github.com/kuravih/hitandmis.system/raw/master/dependencies/libpvcam.so.2.7.4.2.bin
 	
 and set it up with
 
@@ -71,7 +71,7 @@ and set it up with
 	
 	
 ###Intall pvcam sdk
-	$ wget --no-check-certificate https://github.com/kuravih/hitandmis.system/blob/master/dependencies/pi_pvcam_sdk_installer-2.7.1.7.tar.gz
+	$ wget --no-check-certificate https://github.com/kuravih/hitandmis.system/raw/master/dependencies/pi_pvcam_sdk_installer-2.7.1.7.tar.gz
 	
 and install
 
@@ -82,7 +82,7 @@ and install
 
 ##Andor iKon
 
-	$ wget --no-check-certificate  https://github.com/kuravih/hitandmis.system/blob/master/dependencies/andor-2.98.30010.0.tar.gz
+	$ wget --no-check-certificate  https://github.com/kuravih/hitandmis.system/raw/master/dependencies/andor-2.98.30010.0.tar.gz
 
 and install
 
