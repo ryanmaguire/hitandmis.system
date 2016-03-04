@@ -137,6 +137,11 @@ and install
 
 	$ dpkg --install pvcam-pilk-usb-dkms_1.0.3-1ubuntu1_all.deb
 
+change udev rule at ''/lib/udev/rules.d/10-pi.rules' such that the owner is the user
+
+	# This file should be placed in /etc/udev/rules.d and the group 'video'
+	# should exist (or the lines updated)
+	SUBSYSTEMS=="usb", ATTRS{idProduct}=="a010", ATTRS{idVendor}=="0bd7", GROUP="video", MODE="0660" SUBSYSTEMS=="usb", ATTRS{idProduct}=="a026", ATTRS{idVendor}=="0bd7", GROUP="video", MODE="0660", OWNER="ikon"
 
 
 ####[TODO] edit udev rule to give camera (/dev/rspiusb0) permission to the user of camdaemon
