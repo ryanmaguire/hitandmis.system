@@ -139,6 +139,10 @@ and install
 
 
 
+####[TODO] edit udev rule to give camera (/dev/rspiusb0) permission to the user of camdaemon
+
+
+
 ####libpvcam
 
 get it from Princeton Instruments ftp
