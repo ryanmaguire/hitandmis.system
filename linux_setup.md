@@ -1,19 +1,19 @@
-###Network
+##Network
 For some reason the  `/etc/network/interfaces` will look like this
 
     # The loopback network interface
     auto lo
     iface lo inet loopback   
-         
+
 	auto eth0
 	niface eth0 inet dhcp
-    
+
 but it needs to be
 
     # The loopback network interface
     auto lo
     iface lo inet loopback   
-    
+
     # The eth1 interface     
 	auto eth1
 	iface eth1 inet dhcp
@@ -24,7 +24,7 @@ and bring *eth1* online by
 
 
 
-###apt-get
+####apt-get
 Put the following lines in `/etc/apt/sources.list`
 
     deb http://archive.debian.org/debian/ lenny contrib main non-free
@@ -33,7 +33,7 @@ Put the following lines in `/etc/apt/sources.list`
 and then update apt by
 
     $ apt-get update
-    
+
 and update key-ring by
 
     $ apt-get install debian-archive-keyring
@@ -44,22 +44,22 @@ Reference [unix.stackexchange.com](http://unix.stackexchange.com/questions/66830
 
 
 
-###sudo
+####sudo
     $ apt-get install sudo
 
 
 
-###ssh
+####ssh
     $ apt-get install openssh-server
 
 
 
-###build-essential
+####build-essential
     $ apt-get install build-essential
 
 
 
-###libusb-dev
+####libusb-dev
 Required for ikon
 
     $ apt-get install libusb-dev
@@ -67,8 +67,7 @@ Required for ikon
 
 
 
-###libraw1394-dev
+####libraw1394-dev
 Required for pixis
 
     $ apt-get install libraw1394-dev
-
