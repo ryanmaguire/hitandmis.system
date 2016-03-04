@@ -101,6 +101,10 @@ and install by
 
 
 
+##node.js setup[TODO]
+
+
+
 ##Princeton Instruments Pixis 1024
 
 ####dkms
