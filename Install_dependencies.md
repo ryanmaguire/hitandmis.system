@@ -137,7 +137,7 @@ and install
 
 	$ dpkg --install pvcam-pilk-usb-dkms_1.0.3-1ubuntu1_all.deb
 
-change udev rule at '/lib/udev/rules.d/10-pi.rules' such that the owner is the user
+change udev rule at `/lib/udev/rules.d/10-pi.rules` such that the owner is the user
 
 	SUBSYSTEMS=="usb", ATTRS{idProduct}=="a010", ATTRS{idVendor}=="0bd7", GROUP="video", MODE="0660" SUBSYSTEMS=="usb", ATTRS{idProduct}=="a026", ATTRS{idVendor}=="0bd7", GROUP="video", MODE="0660", OWNER="ikon"
 
