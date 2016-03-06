@@ -60,6 +60,13 @@ Reference [unix.stackexchange.com](http://unix.stackexchange.com/questions/66830
 
 
 
+####beep
+	Required for ikon
+
+		$ apt-get install beep
+
+
+
 ####libusb-dev
 Required for ikon
 
