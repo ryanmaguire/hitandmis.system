@@ -2,7 +2,7 @@
 Libraries and system dependancies required to setup the hit&amp;mis.
 
 ##Setup (Internet connection required)
-Debian setup for EBox3100 is [here](../linux_setup.md). Install the dependancies as shown [here](../install_dependencies.md)
+Debian setup for EBox3100 is [here](../master/linux_setup.md). Install the dependancies as shown [here](../master/install_dependencies.md)
 
 ##Deployment (Internet connection not required)
 The hitandmis.server and the camdaemon can be deployed via the network from a development computer using the sync scripts in each repository.
