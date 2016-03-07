@@ -12,7 +12,7 @@ The hitandmis.server and the camdaemon can be deployed via the network from a de
 #####hitandmis.server
 	./sync.sh --server=192.168.1.2 --user=ikon --force --time --code
 
-finally append the following line to `/etc/inittab` to setup persistent services
+finally append the following lines to `/etc/inittab` to setup persistent services
 
 	cd:2345:respawn:/home/'user'/camdaemon/daemon.sh
 	hs:2345:respawn:/home/'user'/hitandmis.server/server.sh
