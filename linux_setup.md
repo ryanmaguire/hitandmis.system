@@ -1,3 +1,23 @@
+## Serial-to-USB
+The following commands are on the "Host," computer. i.e. Not the camera computer.
+Check to make sure the serial to usb controller is plugged in
+
+	ls /dev/tty*
+	
+You should see `/dev/ttyUSB0` or 1, or 2, or serial, etc. If not, troubleshoot.
+
+Next, use the `screen` command to talk to the camera's computer. (see [here](https://wiki.archlinux.org/index.php/working_with_the_serial_console#Screen))
+
+	sudo screen /dev/ttyUSB0 115200
+	
+Now you shouid be in the Camera's computer.
+
+To obtain the IP adress for ssh, do the following (Using the camera computer's command line)
+
+	sudo ifconfig
+
+If you do not get an IP adress, then go to Network for troubleshooting.
+
 ##Network
 For some reason the  `/etc/network/interfaces` will look like this
 
