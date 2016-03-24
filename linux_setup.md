@@ -10,6 +10,8 @@ Next, use the `screen` command to talk to the camera's computer. (see [here](htt
 
 	sudo screen /dev/ttyUSB0 115200
 	
+Then hit `Enter`
+	
 Now you shouid be in the Camera's computer.
 
 To obtain the IP address for ssh, do the following (Using the camera computer's command line)
@@ -17,6 +19,8 @@ To obtain the IP address for ssh, do the following (Using the camera computer's 
 	sudo ifconfig
 
 If you do not get an IP address, then go to Network for troubleshooting.
+
+To exit from screen, do `CTRL + A`, then `CTRL + D`.
 
 ##Network
 For some reason the  `/etc/network/interfaces` will look like this
