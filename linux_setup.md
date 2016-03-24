@@ -74,6 +74,14 @@ After any change to the `interfaces` file, you need to do:
 
 	sudo ifdown eth1
 	sudo ifup eth1
+
+## Using SSH
+
+From the main computer (Not the camera's), to SSH in, do:
+
+	sudo ssh ikon@(The IP address you obtained from ifconfig above)
+
+
 	
 ####apt-get
 
