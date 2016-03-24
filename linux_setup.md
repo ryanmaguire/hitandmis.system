@@ -12,11 +12,11 @@ Next, use the `screen` command to talk to the camera's computer. (see [here](htt
 	
 Now you shouid be in the Camera's computer.
 
-To obtain the IP adress for ssh, do the following (Using the camera computer's command line)
+To obtain the IP address for ssh, do the following (Using the camera computer's command line)
 
 	sudo ifconfig
 
-If you do not get an IP adress, then go to Network for troubleshooting.
+If you do not get an IP address, then go to Network for troubleshooting.
 
 ##Network
 For some reason the  `/etc/network/interfaces` will look like this
