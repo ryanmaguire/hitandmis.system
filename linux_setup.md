@@ -81,7 +81,7 @@ From the main computer (Not the camera's), to SSH in, do:
 
 	sudo ssh ikon@(The IP address you obtained from ifconfig above)
 
-
+## Starting From Scratch
 	
 ####apt-get
 
