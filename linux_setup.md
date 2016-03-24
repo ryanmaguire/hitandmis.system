@@ -23,7 +23,7 @@ If you do not get an IP address, then go to Network for troubleshooting.
 To exit from screen, do `CTRL + A`, then `CTRL + D`.
 
 ##Network
-For some reason the  `/etc/network/interfaces` will look like this
+A common mistake is that `/etc/network/interfaces` looks like
 
 	# The loopback network interface
 	auto lo
@@ -42,12 +42,39 @@ but it needs to be
 	auto eth1
 	iface eth1 inet dhcp
 
+To view, do
+
+	sudo cat /etc/network/interfaces
+
+To edit/view, do
+
+	sudo pico /etc/network/interfaces
+	
+Change to what is needed, if applicable.
+	
 and bring *eth1* online by
 
 	$ ifup eth1
 
+If dhcp is available, you should see:
 
+	iface eth1 inet dhcp
+	#iface eth1 inet static
+	#address 192.168.1.2
+	#netmask 255.255.255.0
 
+If dhcp is not available, change this too:
+
+	#iface eth1 inet dhcp
+	iface eth1 inet static
+	address 192.168.1.2
+	netmask 255.255.255.0
+
+After any change to the `interfaces` file, you need to do:
+
+	sudo ifdown eth1
+	sudo ifup eth1
+	
 ####apt-get
 
 Put the following lines in `/etc/apt/sources.list`
