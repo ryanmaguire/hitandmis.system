@@ -61,7 +61,7 @@ Reference [unix.stackexchange.com](http://unix.stackexchange.com/questions/66830
 
 
 ####beep
-	Required for ikon
+Required for virtual
 
 		$ apt-get install beep
 
