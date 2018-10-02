@@ -22,7 +22,7 @@ If you do not get an IP address, then go to Network for troubleshooting.
 
 To exit from screen, do `CTRL + A`, then `CTRL + D`.
 
-##Network
+## Network
 A common mistake is that `/etc/network/interfaces` looks like
 
 	# The loopback network interface
@@ -83,7 +83,7 @@ From the main computer (Not the camera's), to SSH in, do:
 
 ## Starting From Scratch
 	
-####apt-get
+#### apt-get
 
 Put the following lines in `/etc/apt/sources.list`
 
@@ -104,36 +104,36 @@ Reference [unix.stackexchange.com](http://unix.stackexchange.com/questions/66830
 
 
 
-####sudo
+#### sudo
 	$ apt-get install sudo
 
 
 
-####ssh
+#### ssh
 	$ apt-get install openssh-server
 
 
 
-####build-essential
+#### build-essential
 	$ apt-get install build-essential
 
 
 
-####beep
+#### beep
 Required for virtual
 
 		$ apt-get install beep
 
 
 
-####libusb-dev
+#### libusb-dev
 Required for ikon
 
 	$ apt-get install libusb-dev
 
 
 
-####libraw1394-dev
+#### libraw1394-dev
 Required for pixis
 
 	$ apt-get install libraw1394-dev
